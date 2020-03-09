@@ -1368,7 +1368,7 @@
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888;
+  background-color: #0d223d;
   color: #ffffff;
 }
 
@@ -2095,7 +2095,7 @@ fieldset[disabled] .btn-neutral.active {
 }
 
 .btn-neutral.btn-default {
-  color: #888;
+  color: rgb(30, 46, 192);
 }
 
 .btn-neutral.btn-default:hover,
@@ -6119,16 +6119,16 @@ Created using IcoMoon - icomoon.io
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(
+    /* background: -webkit-gradient(
       linear,
       left top,
       left bottom,
       from(#0d223d),
       color-stop(80%, #000)
-    );
+    ); */
     background: linear-gradient(#0d223d 0%, #000 80%);
     /* Standard syntax (must be last) */
-    opacity: 0.76;
+    /* opacity: 0.76; */
     filter: alpha(opacity=76);
     display: block;
     content: "";
